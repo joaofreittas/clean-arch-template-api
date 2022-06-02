@@ -1,0 +1,10 @@
+server:
+    port: 8080
+spring:
+    application:
+        name: template-api
+    data:
+        mongodb:
+            database: ${DATABASE_NAME}
+            uri: ${DATABASE_URI}
+
