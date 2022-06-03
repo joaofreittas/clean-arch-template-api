@@ -7,4 +7,3 @@ spring:
         mongodb:
             database: ${DATABASE_NAME}
             uri: ${DATABASE_URI}
-
