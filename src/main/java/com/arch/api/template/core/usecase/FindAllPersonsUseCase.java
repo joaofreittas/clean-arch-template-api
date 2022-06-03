@@ -2,7 +2,7 @@ package com.arch.api.template.core.usecase;
 
 import com.arch.api.template.core.gateway.PersonGateway;
 import com.arch.api.template.core.mapper.PersonDomainMapper;
-import com.arch.api.template.entrypoint.dto.PersonDTOResponse;
+import com.arch.api.template.entrypoint.api.payloads.PersonDTOResponse;
 
 import java.util.List;
 import java.util.stream.Collectors;

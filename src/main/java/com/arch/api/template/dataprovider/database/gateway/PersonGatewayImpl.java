@@ -1,5 +1,6 @@
 package com.arch.api.template.dataprovider.database.gateway;
 
+import com.arch.api.template.core.exception.PersonNotFound;
 import com.arch.api.template.dataprovider.database.mapper.PersonPresentationMapper;
 import com.arch.api.template.dataprovider.database.repository.PersonMongoDBRepository;
 import com.arch.api.template.dataprovider.database.presentation.PersonPresentation;
@@ -37,7 +38,7 @@ public record PersonGatewayImpl(PersonMongoDBRepository personMongoDBRepository)
             return PersonPresentationMapper.presentationToDomain(personMongoDBRepository.save(presentation));
         }
 
-        throw new RuntimeException("No has Person with this id: " + id);
+        throw new PersonNotFound("No has Person with this id: " + id);
     }
 
 }

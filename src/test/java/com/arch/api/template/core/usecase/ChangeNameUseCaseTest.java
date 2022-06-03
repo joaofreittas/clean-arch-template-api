@@ -2,13 +2,12 @@ package com.arch.api.template.core.usecase;
 
 import com.arch.api.template.core.domain.Person;
 import com.arch.api.template.core.gateway.PersonGateway;
-import com.arch.api.template.entrypoint.dto.PersonDTORequest;
-import com.arch.api.template.entrypoint.dto.PersonDTOResponse;
+import com.arch.api.template.entrypoint.api.payloads.PersonDTORequest;
+import com.arch.api.template.entrypoint.api.payloads.PersonDTOResponse;
 import org.junit.jupiter.api.Test;
 import org.junit.jupiter.api.extension.ExtendWith;
 import org.mockito.InjectMocks;
 import org.mockito.Mock;
-import org.mockito.Mockito;
 import org.mockito.junit.jupiter.MockitoExtension;
 
 import static org.junit.jupiter.api.Assertions.*;

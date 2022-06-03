@@ -1,4 +1,4 @@
-package com.arch.api.template.entrypoint.dto;
+package com.arch.api.template.entrypoint.api.payloads;
 
 import lombok.AllArgsConstructor;
 import lombok.Builder;
@@ -9,9 +9,8 @@ import lombok.NoArgsConstructor;
 @Builder
 @AllArgsConstructor
 @NoArgsConstructor
-public class PersonDTORequest {
+public class PersonDTOResponse {
 
-    private String id;
     private String name;
 
 }

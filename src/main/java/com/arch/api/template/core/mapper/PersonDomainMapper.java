@@ -1,8 +1,8 @@
 package com.arch.api.template.core.mapper;
 
 import com.arch.api.template.core.domain.Person;
-import com.arch.api.template.entrypoint.dto.PersonDTORequest;
-import com.arch.api.template.entrypoint.dto.PersonDTOResponse;
+import com.arch.api.template.entrypoint.api.payloads.PersonDTORequest;
+import com.arch.api.template.entrypoint.api.payloads.PersonDTOResponse;
 
 public class PersonDomainMapper {
 
